@@ -223,6 +223,10 @@ input[type=email] {
 	opacity: 0.6;
 }
 /*Boot Strap altercations*/
+.auth-image {
+	width: 60%;
+	height: auto;
+}
 #test {
 	color: #fff;
 }
@@ -240,11 +244,7 @@ nav {
 	border-left: 1px solid #efefef;
 
 }
-@media screen and (max-width: 993px) {
-	nav a {
-		z-index: 99;
-	}
-}
+
 @media screen and (min-width: 993px) {
 	#connect {
 		float: right
